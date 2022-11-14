@@ -305,20 +305,12 @@
 
         <div class="form-container">
 
-            <div class="left-side">
-                <form>
-                    <div class="left name">
-                        <input type="text" class="required" placeholder="VASE IME">
-                    </div>
-                    <div class="left Email">
-                        <input type="text" class="required" placeholder="VAS EMAIL">
-                    </div>
-                    <div class="left message">
-                        <textarea type="text" class="required" placeholder="PORUKA:"></textarea>
-                    </div>
-                    <div class="left form-btn">
-                        <input type="button" value="POSALJI!">
-                    </div>
+            <div class="form">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="VASE IME">
+                    <input type="text" placeholder="VAS E-MAIL">
+                    <textarea name="question" rows="10" cols="50" placeholder="PITENJE:"></textarea><br>
+                    <input type="submit" value="POSALJI!">
                 </form>
             </div>
 
