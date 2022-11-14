@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>B-Creative</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="css/temlate.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+
+
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <p><i class="arrow up"></i></p>
+    </button>
+
+    <!--first row-->
+    <div class="row one">
+        <img class="logo" src="header/1. HEADER/logo b-creative-01.svg" alt="b-creative-logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a id="homePage" href="#homePage">POČETNA</a></li>
+                <li><a href="#teamPage">O NAMA</a></li>
+                <li><a href="#portfolioPage">PORTFOLIO</a></li>
+                <li><a href="#BlogPage">BLOG</a></li>
+                <li><a id="contactPage" href="#contactPage">KONTAKT</a></li>
+            </ul>
+        </nav>
+        <span class="material-symbols-outlined">
+            search
+        </span>
+    </div>
+
+    <div class="row-two-picture">
+
+
+        <div class="transparent-box">
+            <div class="orange-box"></div>
+
+            <div class="text-contet">
+                <h3 class="black-title">DIZAJNIRAMO NAJBOLJE</h3>
+                <h1 class="main-title">WEB STRANICE</h1>
+                <button id="go-to-contact" class="black-button" onclick="funkcija()">Kontaktiraj
+                    nas!</button>
+            </div>
+
+        </div>
+    </div>
+    <!--development-->
+    <div class="development-section">
+        <h1 id="teamPage" class="section-title">MI SMO AGENCIJA KOJA DONOSI REZULTATE</h1>
+        <div class="title-underline"></div>
+
+        <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus
+            vero doloribus iusto, aliquam explicabo expedita tenetur nam dolores nihil quisquam
+
+            quod.</p>
+
+        <div class="section-img-container">
+            <div class="development-img-container">
+                <div class="img-container first-img ">
+                </div>
+                <div class="title-link-container">
+                    <h3>DEVELOPMENT</h3>
+                    <div class="title-underline-one"></div>
+                    <p class="small-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+            </div>
+
+            <div class="development-img-container-two">
+                <div class="img-container second-img">
+                </div>
+                <div class="title-link-container">
+                    <h3>BRANDING</h3>
+                    <div class="title-underline-one">
+                    </div>
+                    <p class="small-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+            </div>
+
+            <div class="development-img-container">
+                <div class="img-container third-img">
+                </div>
+                <div class="title-link-container">
+                    <h3>MARKETING</h3>
+                    <div class="title-underline-one"></div>
+                    <p class="small-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div class="main"></div>
+
+    <h1 id="portfolioPage" class="section-title">PORTFOLIO</h1>
+    <div class="title-underline"></div>
+
+
+    <div class="btnContainer">
+
+        <button class="btn active" onclick="filterSelection('all')">SVI RADOVI</button>
+        <button class="btn " onclick="filterSelection('logoDesign')">LOGO DIZAJN</button>
+        <button class="btn " onclick="filterSelection('webDesign')">WEB DIZAJN</button>
+        <button class="btn " onclick="filterSelection('development')">DEVELOPMENT</button>
+
+    </div>
+
+    <div class="gallery">
+
+        <div class="photo1 column logoDesign">
+            <img src="portfolioSlike/tsif.jpg">
+        </div>
+
+
+        <div class="photo2 column logoDesign">
+            <img src="portfolioSlike/rolex-logo-dizajn-340x480px.jpg">
+        </div>
+
+        <div class="photo3 column development">
+            <img src="portfolioSlike/case-studies.jpg">
+        </div>
+
+
+        <div class="photo4 column development">
+            <img src="portfolioSlike/web-dizajn.jpg">
+        </div>
+
+
+        <div class="photo5 column webDesign">
+            <img src="portfolioSlike/mobil.jpg">
+        </div>
+
+
+        <div class="photo6 column webDesign">
+
+            <img src="portfolioSlike/HOW.jpg">
+        </div>
+
+
+        <div class="photo7 column logoDesign">
+            <img src="portfolioSlike/toyota.jpg">
+        </div>
+
+        <div class="photo8 column development">
+
+            <img src="portfolioSlike/web.jpg">
+
+        </div>
+    </div>
+    <!--Loader-->
+
+
+
+
+
+
+
+
+
+
+    <!--blog-->
+    <div class="blog-section ">
+        <h1 id="BlogPage" class="section-title">BLOG</h1>
+        <div class="title-underline"></div>
+
+        <p class="section-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus
+            vero doloribus iusto, aliquam explicabo expedita tenetur nam dolores nihil quisquam
+
+            quod.</p>
+
+        <div class="section-img-container">
+
+            <div class="blog-img-container">
+                <div class="img-container first-img ">
+                    <div class="date-box">17.<br> OKT</div>
+                </div>
+                <div class="title-link-container">
+                    <h3>KVALITET NE IZLAZI IZ MODE</h3>
+                    <h4>LOGO DIZAJN</h4>
+
+                    <a href="#">Saznaj više <i class="arrow"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-img-container">
+                <div class="img-container secont-img">
+                    <div class="date-box">5.<br> OKT</div>
+                </div>
+                <div class="title-link-container">
+                    <h3>OPTIMIZACIJA SAJTA</h3>
+                    <h4>WEB DIZAJN</h4>
+
+                    <a href="#">Saznaj više <i class="arrow"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-img-container">
+                <div class="img-container third-img">
+                    <div class="date-box">23.<br> SEP </div>
+                </div>
+                <div class="title-link-container">
+                    <h3>PSIHOLOGIJA BOJA</h3>
+                    <h4>LOGO DIZAJN</h4>
+
+                    <a href="#">Saznaj više <i class="arrow"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--upoznajte nas tim-->
+    <div class="aboutUs-section">
+
+        <div class="header">
+            <h1 class="title-team">UPOZNAJTE NAŠ TIM</h1>
+            <div class="title-underline-one"></div>
+        </div>
+
+        <div class="people-img-container">
+
+            <div class="aboutUs-img-container">
+                <div class="picture">
+
+                    <div class="img-container-first ">
+                    </div>
+                    <div class="cover">
+                        <div class="text">
+                            <ul class="nav-links">
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+
+                            </ul>
+                            <h5>IME PREZIME 1</h5>
+                            <h6>DIZAJNER</h6>
+                            <div class="title-underline-black"></div>
+                            <p>Lorem ipsum dolor sit adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="aboutUs-img-container">
+                <div class="picture">
+                    <div class="img-container-second">
+                    </div>
+                    <div class="cover">
+                        <div class="text">
+                            <ul class="nav-links">
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+
+                            </ul>
+
+                            <h5>IME PREZIME 2</h5>
+                            <h6>CEO</h6>
+                            <div class="title-underline-black"></div>
+                            <p>Lorem ipsum dolor sit adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aboutUs-img-container">
+                <div class="picture">
+                    <div class="img-container-third">
+                    </div>
+                    <div class="cover">
+                        <div class="text">
+                            <ul class="nav-links">
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+                                <li><img src="ikonice"></li>
+
+                            </ul>
+
+                            <h5>IME PREZIME 3</h5>
+                            <h6>DEVELOPER</h6>
+                            <div class="title-underline-black"></div>
+                            <p>Lorem ipsum dolor sit adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Kontaktirejte nas-->
+    <div class="contact-form">
+        <div class="header">
+            <h1 class="title-team">KONTAKTIRAJTE NAS!</h1>
+            <div class="title-underline-one"></div>
+        </div>
+
+
+        <div class="form-container">
+
+            <div class="left-side">
+                <form>
+                    <div class="left name">
+                        <input type="text" class="required" placeholder="VASE IME">
+                    </div>
+                    <div class="left Email">
+                        <input type="text" class="required" placeholder="VAS EMAIL">
+                    </div>
+                    <div class="left message">
+                        <textarea type="text" class="required" placeholder="PORUKA:"></textarea>
+                    </div>
+                    <div class="left form-btn">
+                        <input type="button" value="POSALJI!">
+                    </div>
+                </form>
+            </div>
+
+            <div class="ikon-container">
+
+
+                <div class="adress">
+                    <div class="icon map">
+                    </div>
+                    <div class="adress-text-container">
+                        <p class="street-name">ADRESA<br>
+                            Joseph T.Vilanvera 129 Nort Street<br>
+                            Grand Rapidis,MI 49586
+                        </p>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <div class="icon meil">
+                    </div>
+                    <div class="adress-text-container">
+                        <p class="mail-name">EMAIL<br>
+                            incognito@email<br>
+                            office@bcreatice.com
+                        </p>
+                    </div>
+                </div>
+
+                <div class="telephone">
+                    <div class="icon tele">
+                    </div>
+                    <div class="adress-text-container">
+                        <p class="telephone-name">TELEFON<br>
+                            +387 66 111 222<br>
+                            +387 32 222 333
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="bcreative">
+            <h4>BE CREATIVE DIGITAL AGENCY</h4>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui accusantium sit in animi? Ea iste eaque id
+                quaerat ipsam consequuntur, minus fugiat, dignissimos asperiores molestias praesentium nam animi ipsa
+                quo.</P>
+
+            <img class="logo foot" src="header/1. HEADER/logo b-creative-01.svg" alt="b-creative-logo">
+        </div>
+
+        <div class="pocetna">
+            <h4>POCETNA</h4>
+            <h4>O NAMA </h4>
+            <h4>PORTFOLIO</h4>
+            <h4>BLOG</h4>
+            <h4>KONTAKT</h4>
+        </div>
+
+        <div class="newsletter">
+            <h4>PREPLATI SE NA NAS NEWSLETTER </h4>
+            <input type="text" placeholder="UNESITE VASI E-MAIL ADRESU">
+            <input type="button" value="PRETPLATI SE">
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
