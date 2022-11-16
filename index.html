@@ -15,7 +15,7 @@
 
 
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
         <p><i class="arrow up"></i></p>
     </button>
 
@@ -95,63 +95,69 @@
         </div>
     </div>
     <!--portfolio-->
-    <div class="main"></div>
 
-    <h1 id="portfolioPage" class="section-title">PORTFOLIO</h1>
-    <div class="title-underline"></div>
+    <div class="main-portfolio">
+        <h1 id="portfolioPage" class="section-title">PORTFOLIO</h1>
+        <div class="title-underline"></div>
+        <div class="buttonContainer">
+            <button class="btn " onclick="filterSelection('all')">SVI RADOVI</button>
+            <button class="btn" onclick="filterSelection('logoDesign')">LOGO DIZAJN</button>
+            <button class="btn" onclick="filterSelection('webDesign')">WEB DIZAJN</button>
+            <button class="btn" onclick="filterSelection('develop')">DEVELOPMENT</button>
+        </div>
 
 
-    <div class="btnContainer">
+        <div class="row">
 
-        <button class="btn active" onclick="filterSelection('all')">SVI RADOVI</button>
-        <button class="btn " onclick="filterSelection('logoDesign')">LOGO DIZAJN</button>
-        <button class="btn " onclick="filterSelection('webDesign')">WEB DIZAJN</button>
-        <button class="btn " onclick="filterSelection('development')">DEVELOPMENT</button>
+            <div class="column one logoDesign">
+                <div class="content">
+                    <img class="photo1" src="portfolioSlike/tsif.jpg">
+                </div>
+            </div>
+            <div class="column two logoDesign">
+                <div class="content">
+                    <img class="photo2" src="portfolioSlike/rolex-logo-dizajn-340x480px.jpg">
+                </div>
+            </div>
+            <div class="column seven logoDesign">
+                <div class="content">
+                    <img class="photo7" src="portfolioSlike/toyota.jpg">
+                </div>
+            </div>
+            <div class="column six webDesign">
+                <div class="content">
+                    <img class="photo6" src="portfolioSlike/HOW.jpg">
+                </div>
+            </div>
+            <div class="column five webDesign">
+                <div class="content">
+                    <img class="photo5" src="portfolioSlike/mobil.jpg">
+                </div>
+            </div>
+            <div class="column three develop">
+                <div class="content">
+                    <img class="photo3" src="portfolioSlike/case-studies.jpg">
+                </div>
+            </div>
+            <div class="column four develop">
+                <div class="content">
+                    <img class="photo4" src="portfolioSlike/web-dizajn.jpg">
+                </div>
+            </div>
+            <div class="column eight develop">
+                <div class="content">
+                    <img class="photo8" src="portfolioSlike/web.jpg">
+                </div>
+            </div>
+
+        </div>
+
+
 
     </div>
 
-    <div class="gallery">
-
-        <div class="photo1 column logoDesign">
-            <img src="portfolioSlike/tsif.jpg">
-        </div>
 
 
-        <div class="photo2 column logoDesign">
-            <img src="portfolioSlike/rolex-logo-dizajn-340x480px.jpg">
-        </div>
-
-        <div class="photo3 column development">
-            <img src="portfolioSlike/case-studies.jpg">
-        </div>
-
-
-        <div class="photo4 column development">
-            <img src="portfolioSlike/web-dizajn.jpg">
-        </div>
-
-
-        <div class="photo5 column webDesign">
-            <img src="portfolioSlike/mobil.jpg">
-        </div>
-
-
-        <div class="photo6 column webDesign">
-
-            <img src="portfolioSlike/HOW.jpg">
-        </div>
-
-
-        <div class="photo7 column logoDesign">
-            <img src="portfolioSlike/toyota.jpg">
-        </div>
-
-        <div class="photo8 column development">
-
-            <img src="portfolioSlike/web.jpg">
-
-        </div>
-    </div>
     <!--Loader-->
 
     <div class="wrapper">
@@ -320,82 +326,82 @@
         </div>
 
 
-        <div class="form-container">
-
-            <div class="form">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="VASE IME">
-                    <input type="text" placeholder="VAS E-MAIL">
-                    <textarea name="question" rows="10" cols="50" placeholder="PITENJE:"></textarea><br>
-                    <input type="submit" value="POSALJI!">
-                </form>
-            </div>
-
-            <div class="ikon-container">
+        <div class="form-content">
 
 
-                <div class="adress">
-                    <div class="icon map">
-                    </div>
-                    <div class="adress-text-container">
-                        <p class="street-name">ADRESA<br>
-                            Joseph T.Vilanvera 129 Nort Street<br>
-                            Grand Rapidis,MI 49586
-                        </p>
-                    </div>
+            <div class="form-container">
+
+                <div class="form">
+                    <form>
+                        <input type="text" placeholder="VASE IME">
+                        <input type="text" placeholder="VAS E-MAIL">
+                        <textarea name="question" rows="10" cols="50" placeholder="PITENJE:"></textarea><br>
+                        <div class="action">
+                            <input type="submit" value="POSALJI!">
+                        </div>
+                    </form>
                 </div>
 
-                <div class="email">
-                    <div class="icon meil">
-                    </div>
-                    <div class="adress-text-container">
-                        <p class="mail-name">EMAIL<br>
-                            incognito@email<br>
-                            office@bcreatice.com
-                        </p>
-                    </div>
-                </div>
+                <div class="ikon-container">
 
-                <div class="telephone">
-                    <div class="icon tele">
+
+                    <div class="adress">
+                        <div class="icon map">
+                        </div>
+                        <div class="adress-text-container">
+                            <p class="street-name">ADRESA<br>
+                                Joseph T.Vilanvera 129 Nort Street<br>
+                                Grand Rapidis,MI 49586
+                            </p>
+                        </div>
                     </div>
-                    <div class="adress-text-container">
-                        <p class="telephone-name">TELEFON<br>
-                            +387 66 111 222<br>
-                            +387 32 222 333
-                        </p>
+
+                    <div class="email">
+                        <div class="icon meil">
+                        </div>
+                        <div class="adress-text-container">
+                            <p class="mail-name">EMAIL<br>
+                                incognito@email<br>
+                                office@bcreatice.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="telephone">
+                        <div class="icon tele">
+                        </div>
+                        <div class="adress-text-container">
+                            <p class="telephone-name">TELEFON<br>
+                                +387 66 111 222<br>
+                                +387 32 222 333
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
     <footer>
-        <div class="bcreative">
+        <div class="footer-left">
             <h4>BE CREATIVE DIGITAL AGENCY</h4>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui accusantium sit in animi? Ea iste eaque id
                 quaerat ipsam consequuntur, minus fugiat, dignissimos asperiores molestias praesentium nam animi ipsa
                 quo.</P>
-
             <img class="logo foot" src="header/1. HEADER/logo b-creative-01.svg" alt="b-creative-logo">
         </div>
-
-        <div class="pocetna">
+        <div class="footer-center">
             <h4>POCETNA</h4>
             <h4>O NAMA </h4>
             <h4>PORTFOLIO</h4>
             <h4>BLOG</h4>
             <h4>KONTAKT</h4>
         </div>
-
-        <div class="newsletter">
+        <div class="footer-right">
             <h4>PREPLATI SE NA NAS NEWSLETTER </h4>
             <input type="text" placeholder="UNESITE VASI E-MAIL ADRESU">
             <input type="button" value="PRETPLATI SE">
         </div>
-
 
     </footer>
 
